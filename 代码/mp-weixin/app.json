@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/zhishikepu/list",
+    "pages/zhishikepu/add-or-update",
+    "pages/zhishikepu/detail",
+    "pages/jiankangxinxigongxiang/list",
+    "pages/jiankangxinxigongxiang/add-or-update",
+    "pages/jiankangxinxigongxiang/detail",
+    "pages/jiankangjihua/list",
+    "pages/jiankangjihua/add-or-update",
+    "pages/jiankangjihua/detail",
+    "pages/jiankangshuju/list",
+    "pages/jiankangshuju/add-or-update",
+    "pages/jiankangshuju/detail",
+    "pages/shujufenxi/list",
+    "pages/shujufenxi/add-or-update",
+    "pages/shujufenxi/detail",
+    "pages/discusszhishikepu/list",
+    "pages/discusszhishikepu/add-or-update",
+    "pages/discusszhishikepu/detail",
+    "pages/discussjiankangxinxigongxiang/list",
+    "pages/discussjiankangxinxigongxiang/add-or-update",
+    "pages/discussjiankangxinxigongxiang/detail",
+    "pages/discussjiankangjihua/list",
+    "pages/discussjiankangjihua/add-or-update",
+    "pages/discussjiankangjihua/detail",
+    "pages/forum-index/forum-index",
+    "pages/forum-detail/forum-detail",
+    "pages/forum-reply/forum-reply",
+    "pages/forum-list/list",
+    "pages/forum-my/forum-my",
+    "pages/forum-add-or-update/forum-add-or-update",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "个人健康数据管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3AEBF1",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zhishikepu/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "知识科普"
+      },
+      {
+        "pagePath": "pages/forum-index/forum-index",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "交流区"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
